@@ -1,6 +1,4 @@
 const express = require("express");
-const _ = require("lodash");
-
 const Comment = require("../models/comment");
 
 const router = express.Router();
