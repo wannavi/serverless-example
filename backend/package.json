@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha src/**/*.spec.js --timeout 10000",
-    "dev": "NODE_ENV=development nodemon --quiet src/bin/www | pino-pretty -c -l -t",
+    "dev": "NODE_ENV=development nodemon --quiet src/www | pino-pretty -c -l -t",
     "deploy": "serverless deploy"
   },
   "keywords": [],
